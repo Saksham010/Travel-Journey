@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 550px;
+  height: 704px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+
+.nav-container{
+  border:1px red solid;
+  display: flex;
+  justify-content: center;
+  background-color:#F55A5A;
+  height: 55px;
+
+}
+
+.nav-container svg{
+  width:35px;
+}
+
+.nav-container h1{
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color:white;
+  align-self:center;
+}
+
+/* SECTION */
+section{
+  padding-top: 20px;
+  border: 1px red solid;
+}
+
+
+/* CARDS */
+
+.card-container{
+  margin:0 auto;
+  /* border:1px green solid; */
+  width: 470px;
+  display: flex;
+  padding-top: 15px;
+
+
+
+}
+.card-container img{
+  width: 125px;
+  /* height: 168px; */
+  border-radius: 5px;
+
+}
+
+
+.aside-container{
+  /* border:1px red solid; */
+  padding:20px 20px;
+}
+
+
+.aside-one{
+  /* border:1px black solid; */
+  font-size: 10.24px;
+  /* height: 30px; */
+  display: flex;
+  padding: 10px 0;
+
+}
+.aside-one img{
+  width: 12px;
+
+
+}
+
+
+.aside-one-space{
+  padding:0 3px;
+  letter-spacing: 2.3px;
+}
+
+
+.aside-one-underline{
+  padding-left: 3px;
+  color:#918E9B;
+}
+
+
+.aside-container h1{
+  font-size: 25px;
+
+}
+
+.aside-container h5{
+  font-size: 10.24px;
+  padding: 11px 0 8.5px 0 ;
+
+
+}
+
+.aside-container p{
+  font-size: 10.24px;
+
+  color:#2B283A;
+}
+
+
+
+.father-container hr{
+  margin:0 auto;
+  width: 85%;
+  color:#FEFEFE;
+  opacity: 0.12;
+}
